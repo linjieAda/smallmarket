@@ -3,15 +3,9 @@ import { getURLParameter } from 'sspquery'
 import { queryForGetMarket } from './query'
 import { setDocumentTitle } from 'utils/setDocumentTitle'
 class StreetStore {
-  @observable text = ''
-
-  @action update(text) {
-    this.text = text
-  }
 
   fetchData() {
-    setDocumentTitle('小市场')
-    this.update('开始开工了吗？!!!!!')
+    setDocumentTitle('钓鱼赢好礼，38元换购8斤油桃+1盒')
   }
 
 }

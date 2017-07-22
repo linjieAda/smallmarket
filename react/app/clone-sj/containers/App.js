@@ -1,7 +1,8 @@
 import React from 'react'
 import { observer } from 'mobx-react'
+import Menu from '../components/Menu'
 
-import '../css/street.scss'
+import '../css/clonesj.scss'
 
 @observer
 export default class App extends React.Component {
@@ -14,8 +15,8 @@ export default class App extends React.Component {
     const store = this.props.store
 
     return (
-      <div className="app-mrt-virtual">
-        {store.text}
+      <div className="app-clone-sj">
+        <Menu store={store} />
       </div>
     )
   }
