@@ -1,0 +1,48 @@
+.app-piece {
+
+  .piece1 {
+    position:fixed;
+    top:-50px;
+    left:77px;
+    z-index: 1009;
+    max-width: 100px;
+    max-height: 100px;
+
+    animation-name: drop;
+    animation-duration:11.239845060692852s;
+    animation-delay:1.821435147724371s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+
+    >img {
+      display: block;
+      width: 100%;
+      animation-name:clockwiseSpin;
+      animation-duration:6.057798634493247s;
+      z-index: 1;
+      max-width: 60px;
+      opacity: .9;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      transform-origin: 50% -100%;
+    }
+  }
+
+  @keyframes drop {
+    0% {transform: translate(0px,675px);}
+    100% {transform: translate(0px, -50px);}
+  }
+
+  @keyframes clockwiseSpin {
+    0% {
+      transform:rotate(-50deg)
+    }
+
+    100% {
+      transform:rotate(50deg)
+    }
+  }
+
+}

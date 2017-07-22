@@ -1,0 +1,64 @@
+.app-heading {
+  background: {
+    image: url("../img/bg.png");
+    repeat: no-repeat;
+    size: 100%;
+  }
+  padding: 30%;
+
+  .getfish {
+    position: relative;
+    top: 1.3rem;
+    left: 43%;
+    width: 1.5rem;
+    height: .86rem;
+    transform: scale(1);
+    background: {
+      image: url("../img/bigfish.png");
+      position: center top;
+      repeat: no-repeat;
+      size: 90%;
+    }
+  }
+
+  .smallfish {
+    position: relative;
+    top: 0;
+    left: -60%;
+    animation: fishmove 10s linear infinite;
+    display: block;
+  }
+
+  @keyframes fishmove {
+    0% {
+      transform: scale(0.5);
+      left: -60%;
+    }
+
+    100% {
+      transform: scale(0.5);
+      left: 80%;
+    }
+  }
+
+  .smallfishright {
+    position: relative;
+    display: block;
+    top: .2rem;
+    right: -100%;
+    animation: fishmoveright 10s linear infinite;
+  }
+
+  @keyframes fishmoveright {
+    0% {
+      transform: scale(0.5);
+      right: -100%;
+    }
+
+    100% {
+      transform: scale(0.5);
+      right: 80%;
+    }
+  }
+}
+

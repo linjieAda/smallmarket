@@ -2,4 +2,21 @@
 
 .app-clone-sj {
   font-size: .28rem;
+  color: #333;
+  background: #028ad4;
+
+  .app-card {
+    .space {
+      height: .8rem;
+      background: #028ad4;
+    }
+  }
 }
+
+@import "clonesj/header";
+@import "clonesj/heading";
+@import "clonesj/banner";
+@import "clonesj/card";
+@import "clonesj/reminder";
+@import "clonesj/music";
+@import "clonesj/piece";

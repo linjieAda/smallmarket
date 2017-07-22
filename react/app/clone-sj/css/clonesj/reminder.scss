@@ -1,0 +1,39 @@
+.app-reminder {
+  position: fixed;
+  z-index: 1010;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: .8rem;
+  line-height: .8rem;
+  background: rgba(0, 0, 0, .7);
+  color: #fff;
+
+  .normal {
+    margin-left: .1rem;
+  }
+
+  >i {
+    margin: 0 .1rem;
+    font-style: normal;
+  }
+
+  .yellow {
+    color: #ff0;
+  }
+
+  >a {
+    font-size: .4rem;
+    line-height: .8rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    min-width: .8rem;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+}

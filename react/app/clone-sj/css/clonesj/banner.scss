@@ -1,0 +1,76 @@
+.app-banner {
+
+  .banner-title {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .32rem;
+    font-size: .48rem;
+    line-height: 1.3;
+    text-shadow: 1px 1px 1px #474747;
+    font-weight: bold;
+  }
+
+  .banner-countdown {
+    box-sizing: border-box;
+    color: #030303;
+    width: 100%;
+    height: 1.76rem;
+    background: {
+      image: url("../img/time_bg.png");
+      size: 100%;
+      repeat: no-repeat;
+    }
+    font-size: .26rem;
+  }
+
+  .countdown {
+    text-align: center;
+    padding-top: .4rem;
+
+    >b {
+      box-sizing: border-box;
+      font-weight: bold;
+      margin-left: .04rem;
+      margin-right: .04rem;
+      color: #fff;
+      background: #f45151;
+      border-radius: .1rem;
+      width: .64rem;
+      padding: .06rem;
+      display: inline-block;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
