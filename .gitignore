@@ -15,6 +15,6 @@ url-log.log
 /target/
 #打包文件
 react/node_modules/**
-react/build/**
+
 .happypack
 .vscode/*
