@@ -1,6 +1,5 @@
 import { observable, action } from 'mobx'
-import { getURLParameter } from 'sspquery'
-import { queryForGetMarket } from './query'
+// import { getURLParameter } from 'sspquery'
 import { setDocumentTitle } from 'utils/setDocumentTitle'
 
 class ClonesjStore {
